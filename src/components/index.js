@@ -7,3 +7,4 @@ export { default as FreeSpace } from "./freeSpace";
 export { default as Table } from "./table";
 export { default as Wrapper } from "./wrapper";
 export { default as Pokemon } from "./pokemon";
+export { default as Footer } from "./footer";

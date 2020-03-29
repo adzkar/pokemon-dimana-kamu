@@ -4,7 +4,7 @@ export const ListPokomonWrapper = styled.div`
   text-align: center;
 
   .container_loading {
-    min-height: 100vh;
+    min-height: 85vh;
     text-align: center;
 
     img {

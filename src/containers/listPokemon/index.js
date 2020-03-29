@@ -2,7 +2,7 @@ import React from "react";
 import { ListPokomonWrapper } from "./style";
 import { useQuery } from "@apollo/react-hooks";
 import { GET_POKEMON_INFO } from "./query";
-import { Pokemon } from "../../components";
+import { Pokemon, Footer } from "../../components";
 import image from "../../assets/img";
 
 const Index = () => {
@@ -12,7 +12,13 @@ const Index = () => {
     const pokemonsRendered = data.pokemons.map((item, i) => {
       return <Pokemon key={i} img={item.image} name={item.name} />;
     });
-    return <ListPokomonWrapper>{pokemonsRendered}</ListPokomonWrapper>;
+
+    return (
+      <ListPokomonWrapper>
+        {pokemonsRendered}
+        <Footer />
+      </ListPokomonWrapper>
+    );
   }
   return (
     <ListPokomonWrapper>
