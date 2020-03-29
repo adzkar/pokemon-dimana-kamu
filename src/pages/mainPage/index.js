@@ -1,11 +1,15 @@
 import React from "react";
-import { CenterLayout } from "../../components";
+import { CenterLayout, Text } from "../../components";
+import { ListPokemon } from "../../containers";
 import { MainWrapper } from "./style";
 
 const Index = () => {
   return (
     <MainWrapper>
-      <CenterLayout>Hola</CenterLayout>
+      <CenterLayout>
+        <Text.Header>Pokemon's</Text.Header>
+        <ListPokemon />
+      </CenterLayout>
     </MainWrapper>
   );
 };
