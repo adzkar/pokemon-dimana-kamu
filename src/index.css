@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: OpenSans;
+  font-weight: 500;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: OpenSans, Heebo, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
