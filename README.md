@@ -1,6 +1,6 @@
 # Pokemon's
 
-Simple Graphql implemented using apollo on React JS. Thank's to [Graphql-Pokemon](https://github.com/lucasbento/graphql-pokemon) for serve a free API.
+Simple Graphql implemented using apollo on React JS. Thank's to [Graphql-Pokemon](https://github.com/mazipan/graphql-pokeapi) for serve a free API.
 
 ![Pikachu](src/assets/img/pikachu.gif)
 
