@@ -4,7 +4,6 @@ export { default as ClickOut } from "./clickOut";
 export { default as Text } from "./text";
 export { default as Loading } from "./loading";
 export { default as FreeSpace } from "./freeSpace";
-export { default as Table } from "./table";
 export { default as Wrapper } from "./wrapper";
 export { default as Pokemon } from "./pokemon";
 export { default as Footer } from "./footer";
