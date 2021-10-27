@@ -10,7 +10,7 @@ import { HttpLink } from "apollo-link-http";
 
 const cache = new InMemoryCache();
 const link = new HttpLink({
-  uri: "https://graphql-pokemon.now.sh/"
+  uri: "https://graphql-pokeapi.graphcdn.app/"
 });
 
 const client = new ApolloClient({

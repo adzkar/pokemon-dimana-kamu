@@ -2,17 +2,17 @@ import gql from "graphql-tag";
 
 export const GET_POKEMON_INFO = gql`
   {
-    pokemons(first: 60) {
-      id
-      number
+    pokemons(limit: 50, offset: 0) {
+    count
+    next
+    previous
+    status
+    message
+    results {
+      url
       name
       image
-      evolutions {
-        id
-        number
-        name
-        image
-      }
     }
+  }
   }
 `;

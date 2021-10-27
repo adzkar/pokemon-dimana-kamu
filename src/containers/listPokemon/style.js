@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const ListPokomonWrapper = styled.div`
+export const ListPokemonWrapper = styled.div`
   text-align: center;
 
   .container_loading {
